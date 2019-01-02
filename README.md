@@ -21,7 +21,8 @@ cd super-resolution-adversarial-defense
 ```
 ## Wavelet Denoising
 You can test our wavelet denoising + super-resolution algorithm with your own images
- Wavelet_Denoising.py-- (change the path of adversarial images and ground truth labels).
+ 
+``Wavelet_Denoising.py`` -- (change the path of adversarial images and ground truth labels).
 
 * The denoised images will be saved in ``denoised_images_folder`` folder.
 
@@ -39,4 +40,4 @@ sh super_resolution.sh
 
 ## Accuracy Prediction
 
-Accuracy.py (Evaluate the performace of our method by comapring accuracies of adversarial and recovered images).
+``Accuracy.py`` (Evaluate the performace of our method by comapring accuracies of adversarial and recovered images).
