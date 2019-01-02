@@ -38,7 +38,7 @@ a=np.where(pred_labels_top1_integer_adv==labels)
 print ('Top-1 Accuracy on Adv Images is: ', len(a[0])/n*100, ' %')
 
 
-recovered_folder='experiment/test/Results_Demo'
+recovered_folder='experiment/test/results_Demo'
 n=5000 # number of images
 loaded_recovered=np.zeros((n,598,598,3))
 
