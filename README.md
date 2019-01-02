@@ -21,13 +21,13 @@ cd super-resolution-adversarial-defense
 ```
 ## Waveley Denoising
 
-1. Wavelet_Denoising.py-- (change the adversarial images folder and ground truth labels).
+1. Wavelet_Denoising.py-- (change the path of adversarial images and ground truth labels).
 
 * The denoised images will be saved in 'denoised_images_folder' folder.
 
 
-## Quick start (Demo)
-You can test our super-resolution algorithm with your own images. Place your images in ``test`` folder. (like ``test/<your_image>``) We support  **jpg** files.
+## Super Resolution
+You can test our super-resolution algorithm with your own images. Place your images in ``test`` folder. (like ``test/<your_image(s)>``) We support  **jpg** files.
 
 Run the script in ``src`` folder.
 ```bash
@@ -35,4 +35,4 @@ cd src       # You are now in */Defense_WD_SR/src
 sh super_resolution.sh
 ```
 
-You can find the result images from ```experiment/test/``` folder.
+* You can find the result images from ```experiment/test/``` folder.
