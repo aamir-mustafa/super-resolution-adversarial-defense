@@ -20,7 +20,7 @@ git clone https://github.com/aamir-mustafa/super-resolution-adversarial-defense
 cd super-resolution-adversarial-defense
 ```
 ## Wavelet Denoising
-You can test our wavelet denoising + super-resolution algorithm with your own adversarial images and their corresponding ground truth labels. 
+You can test our wavelet denoising + super-resolution algorithm on your own adversarial images and their corresponding ground truth labels. 
  
 ``Wavelet_Denoising.py`` -- (change the path of adversarial images and ground truth labels).
 
