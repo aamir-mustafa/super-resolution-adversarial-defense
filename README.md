@@ -40,4 +40,4 @@ sh super_resolution.sh
 
 ## Accuracy Prediction
 
-``Accuracy.py`` (Evaluate the performace of our method by comapring accuracies of adversarial and recovered images).
+``Accuracy.py`` (Evaluate the performace of our method by comapring accuracies on adversarial and recovered images).
