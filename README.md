@@ -1,5 +1,5 @@
 # super-resolution-adversarial-defense
-Image Super-Resolution as a Defense Against Adversarial Attacks
+
 This repository is an PyTorch implementation of the paper **"Image Super-Resolution as a Defense Against Adversarial Attacks"**.
 
 If you find our work useful in your research or publication, please cite our work:
