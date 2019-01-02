@@ -20,14 +20,14 @@ git clone https://github.com/aamir-mustafa/super-resolution-adversarial-defense
 cd super-resolution-adversarial-defense
 ```
 ## Wavelet Denoising
-
+You can test our wavelet denoising + super-resolution algorithm with your own images
  Wavelet_Denoising.py-- (change the path of adversarial images and ground truth labels).
 
 * The denoised images will be saved in 'denoised_images_folder' folder.
 
 
 ## Super Resolution
-You can test our super-resolution algorithm with your own images. Place your images in ``test`` folder. (like ``test/<your_image(s)>``) We support  **jpg** files.
+Place your denoised images in ``test`` folder. (like ``test/<your_image(s)>``) We support  **jpg** files.
 
 Run the script in ``src`` folder.
 ```bash
