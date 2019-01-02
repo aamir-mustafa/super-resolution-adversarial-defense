@@ -19,9 +19,9 @@ Clone this repository into any place you want.
 git clone https://github.com/aamir-mustafa/super-resolution-adversarial-defense
 cd super-resolution-adversarial-defense
 ```
-## Waveley Denoising
+## Wavelet Denoising
 
-1. Wavelet_Denoising.py-- (change the path of adversarial images and ground truth labels).
+ Wavelet_Denoising.py-- (change the path of adversarial images and ground truth labels).
 
 * The denoised images will be saved in 'denoised_images_folder' folder.
 
@@ -36,3 +36,7 @@ sh super_resolution.sh
 ```
 
 * You can find the result images from ```experiment/test/``` folder.
+
+## Accuracy Prediction
+
+accuracy.py (Evaluate the performace of SR by comapring accuracies of adversarial and recovered images).
