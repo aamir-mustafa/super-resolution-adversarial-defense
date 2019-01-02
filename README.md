@@ -17,7 +17,7 @@ We provide scripts for reproducing all the results from our paper. You can check
 Clone this repository into any place you want.
 ```bash
 git clone https://github.com/aamir-mustafa/super-resolution-adversarial-defense
-cd EDSR-PyTorch
+cd super-resolution-adversarial-defense
 ```
 
 ## Quick start (Demo)
@@ -29,4 +29,4 @@ cd src       # You are now in */Defense_WD_SR/src
 sh super_resolution.sh
 ```
 
-You can find the result images from ```experiment/test/results``` folder.
+You can find the result images from ```experiment/test/``` folder.
