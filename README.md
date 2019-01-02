@@ -1,5 +1,5 @@
 # Image Super-Resolution as a Defense Against Adversarial Attacks
-![](Mapping_function.pdf)
+![](Mapping_function.png)
 
 This repository is an PyTorch implementation of the paper **"Image Super-Resolution as a Defense Against Adversarial Attacks"**.
 
