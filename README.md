@@ -37,7 +37,7 @@ cd src       # You are now in */super-resolution-adversarial-defense-master/src
 sh super_resolution.sh
 ```
 
-* You can find the result images from ```experiment/test/``` folder.
+* You can find the result images from ```experiment/test/results-Demo``` folder.
 
 ## Accuracy Prediction
 
