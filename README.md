@@ -33,7 +33,7 @@ Place your denoised images in ``test`` folder. (like ``test/<your_image(s)>``) W
 
 Run the script in ``src`` folder.
 ```bash
-cd src       # You are now in */Defense_WD_SR/src
+cd src       # You are now in */super-resolution-adversarial-defense-master/src
 sh super_resolution.sh
 ```
 
