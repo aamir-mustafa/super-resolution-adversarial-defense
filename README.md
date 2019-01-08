@@ -1,7 +1,7 @@
 # Image Super-Resolution as a Defense Against Adversarial Attacks
 ![](Mapping_function.png)
 
-This repository is an PyTorch implementation of the paper **"Image Super-Resolution as a Defense Against Adversarial Attacks"**.
+This repository is an PyTorch implementation of the paper **"[Image Super-Resolution as a Defense Against Adversarial Attacks]"**(https://arxiv.org/abs/1901.01677)
 
 We use wavelet denoising and image super resolution as pre-processing steps to defend images against adversarial attacks. If you find our work useful in your research or publication, please cite our work:
 
