@@ -14,23 +14,23 @@ from skimage.measure import compare_psnr
 import scipy.io as sio
 import numpy as np
 import os
+from keras.preprocessing import image
 
-
-n=5000 # number of images
+n=4 # number of images
 path='adversarial_images' # path of adversarial images
 adv_up=np.zeros((n,299,299,3))
-label_file= 'Labels.mat' # true labels for adversarial images
-feats=sio.loadmat(label_file)
-labels=feats['labels']    
-labels=labels.reshape((n))
+#label_file= 'Labels.mat' # true labels for adversarial images
+#feats=sio.loadmat(label_file)
+#labels=feats['labels']    
+#labels=labels.reshape((n))
 count=0
 names=os.listdir(path)
-denoised_images_folder='denoised_images' #folder to save denoised images
-os.mkdir(denoised_images_folder)
+denoised_images_folder='test' #folder to save denoised images
+#os.mkdir(denoised_images_folder)
 
 for i in range(n):
-    ImgID= names(i)
-    img = image.load_img(path +'/'+ ImgID ,target_size=(299, 299))
+    ImgID= names[i].split('.')[0]
+    img = image.load_img(path +'/'+ ImgID +'.png',target_size=(299, 299))
     image_rgb= image.img_to_array(img)
     
     im_bayes = denoise_wavelet(image_rgb/255, multichannel=True, convert2ycbcr=True,
