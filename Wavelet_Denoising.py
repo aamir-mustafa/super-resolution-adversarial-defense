@@ -16,17 +16,10 @@ import numpy as np
 import os
 from keras.preprocessing import image
 
-n=4 # number of images
+n=1 # number of images
 path='adversarial_images' # path of adversarial images
-adv_up=np.zeros((n,299,299,3))
-#label_file= 'Labels.mat' # true labels for adversarial images
-#feats=sio.loadmat(label_file)
-#labels=feats['labels']    
-#labels=labels.reshape((n))
-count=0
 names=os.listdir(path)
 denoised_images_folder='test' #folder to save denoised images
-#os.mkdir(denoised_images_folder)
 
 for i in range(n):
     ImgID= names[i].split('.')[0]
