@@ -42,3 +42,13 @@ sh super_resolution.sh
 ## Accuracy Prediction
 
 ``Accuracy.py`` (Evaluate the performace of our method by comapring accuracies on adversarial and recovered images).
+
+# Citation
+```
+@article{mustafa2019image,
+  title={Image Super-Resolution as a Defense Against Adversarial Attacks},
+  author={Mustafa, Aamir and Khan, Salman H and Hayat, Munawar and Shen, Jianbing and Shao, Ling},
+  journal={arXiv preprint arXiv:1901.01677},
+  year={2019}
+}
+```
