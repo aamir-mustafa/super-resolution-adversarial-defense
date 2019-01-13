@@ -20,14 +20,14 @@ n=1 # number of images
 path='adversarial_images' # path of adversarial images
 names=os.listdir(path)
 denoised_images_folder='test' #folder to save denoised images
-
+sigma= [0.0, 0.01, 0.02, 0.03, 0.04] #chose a smaller sigma for small perturbation sizes
 for i in range(n):
     ImgID= names[i].split('.')[0]
     img = image.load_img(path +'/'+ ImgID +'.png',target_size=(299, 299))
     image_rgb= image.img_to_array(img)
     
     im_bayes = denoise_wavelet(image_rgb/255, multichannel=True, convert2ycbcr=True,
-                               method='BayesShrink', mode='soft',sigma=0.04)
+                               method='BayesShrink', mode='soft',sigma=sigma[1])
 
     plt.imsave(denoised_images_folder+'/'+ ImgID+ '_wd.jpg', im_bayes)
 
