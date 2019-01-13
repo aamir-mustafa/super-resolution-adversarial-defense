@@ -43,7 +43,7 @@ sh super_resolution.sh
 
 ``Accuracy.py`` (Evaluate the performace of our method by comapring accuracies on adversarial and recovered images).
 
-# Citation
+## Citation
 ```
 @article{mustafa2019image,
   title={Image Super-Resolution as a Defense Against Adversarial Attacks},
