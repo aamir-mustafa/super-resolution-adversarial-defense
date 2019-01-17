@@ -4,7 +4,7 @@ Created on Tue Dec  4 15:00:32 2018
 @author: aamir
 """
 
-#Here Inception v3 is used as a classifier.
+#Here Inception v3 is used as a classifier. However the scheme works well for other deep NN classifiers as well
 import os
 import numpy as np
 from keras.preprocessing import image
